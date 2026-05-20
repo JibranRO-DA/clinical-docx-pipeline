@@ -56,3 +56,46 @@ Un mismo paciente puede generar múltiples registros si la nota contiene más de
 - **Power BI** (consumo del dataset y visualización)
 
 ---
+
+##👤 Público objetivo
+
+Este proyecto está orientado a usuarios con conocimientos básicos de Python, principalmente para la ejecución de scripts y navegación por directorios.
+
+Fue desarrollado para uso personal y específico, no como una herramienta genérica ni reutilizable.
+
+---
+##📊 Caso de uso
+
+El dataset generado fue utilizado para:
+
+Clasificación clínica de diagnósticos
+Modelado de datos (tablas de hechos y dimensiones)
+Análisis epidemiológico
+Visualización y reporte en Power BI
+Cumplimiento de requerimientos normativos
+
+---
+##📄 Estado del proyecto
+
+✔ Proyecto finalizado
+✔ Uso único
+✔ Sin mantenimiento activo
+✔ No se contemplan nuevas funcionalidades
+
+---
+
+##🔒 Consideraciones
+No se incluyen datos reales ni documentos clínicos en este repositorio.
+Los archivos .docx y .xlsx están excluidos mediante .gitignore.
+El código refleja una solución desarrollada bajo un contexto real y urgente.
+🧾 Licencia
+
+Uso personal.
+Todos los derechos reservados.
+
+---
+
+##✍️ Autor
+
+Desarrollado por **Jibran Rosas**
+Proyecto creado para resolver una necesidad clínica real en un entorno productivo.
