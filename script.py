@@ -1,5 +1,9 @@
-##this script extract information from medic note in .docx## 
+"""
+ANVA - Clinical .docx Processing Pipeline
 
+Extracts structured information from medical notes in .docx format
+for epidemiological analysis and reporting.
+"""
 
 from docx import Document
 import re
@@ -130,11 +134,13 @@ def infoall(nm):
     return anva_dfx
 
 
+# =========================
+# Main execution
+# =========================
 
-
-    import os
-os.chdir('c:\\Users\\soder\\Desktop\\Proyecto ANVA')
-os.chdir('PACIENTES 2 - copia')
+import os
+base_path = os.getcwd()
+os.chdir(base_path)
 print(os.getcwd())
 
 
@@ -154,9 +160,6 @@ for pa in lpa:
     print(pa,' Terminado...')
     
 df_fin=pd.concat(dfconcat, ignore_index=True)
-
-
-df_fin
 
 os.getcwd()
 
