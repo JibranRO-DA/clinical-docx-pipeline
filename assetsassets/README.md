@@ -5,4 +5,4 @@ Por razones éticas y legales:
 
 - No se incluyen datos reales de pacientes ni las bases generadas.
 
-[Dashoard General](assetsassets76.png)
+[Dashoard General](assetsassets/6.png)
